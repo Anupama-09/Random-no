@@ -1,0 +1,10 @@
+import random
+def rand_num():
+    num=random.randint(1,100)
+    print("Your number is....",num)
+    print('-'*25)
+
+    if num>90:
+      print("Whoa!(clapping noises)")
+
+rand_num()
